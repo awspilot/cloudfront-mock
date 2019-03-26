@@ -1,5 +1,13 @@
 {
+	"name": "@awspilot/cloudfront-mock",
+	"version": "0.0.1",
+	"main": "src/index.js",
 	"dependencies": {
 		"http-proxy": "~1.0.2"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/awspilot/cloudfront-mock"
 	}
 }
