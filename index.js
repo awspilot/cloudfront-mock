@@ -71,7 +71,7 @@ function upstreamer (ctx, req, res) {
 	// must pass host header from the destination
 
 	req.headers.host = destination.host;
-	console.log(req.headers)
+	//console.log(req.headers)
 
 
 	ctx.proxy.web(req, res, {

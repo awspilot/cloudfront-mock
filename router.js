@@ -29,6 +29,8 @@ Router.prototype.dispatch = function (req, res) {
 
 	var matchedRoute = matched_routes[0]
 
+	console.log("[cloudfront-mock]", reqPath, " -> ", matchedRoute )
+
 	var handler = this.handlers[matchedRoute || '/'];
 	if (handler) {
 		handler(req, res);
