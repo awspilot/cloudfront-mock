@@ -3,7 +3,7 @@
 	"version": "0.0.2",
 	"main": "src/index.js",
 	"dependencies": {
-		"http-proxy": "~1.0.2"
+		"http-proxy": "~1.18.1"
 	},
 	"license": "MIT",
 	"repository": {
